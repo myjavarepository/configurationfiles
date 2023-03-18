@@ -21,3 +21,6 @@ feign:
     url: https://api.openweathermap.org/data/2.5/forecast
 jwt:
   secret: $weather_api$
+  
+host:
+  origin: localhost

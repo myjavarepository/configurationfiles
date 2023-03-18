@@ -1,2 +1,10 @@
 file:
   message: Hello, Message from config client.yml file.
+
+
+
+spring:
+  application:
+    name: config-client
+server:
+  port: 9080

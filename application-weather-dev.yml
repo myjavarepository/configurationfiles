@@ -1,0 +1,23 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  health:
+    circuitbreakers:
+      enabled: 'true'
+    ratelimiters:
+      enabled: 'true'
+  endpoint:
+    health:
+      show-details: always
+spring:
+  application:
+    name: wheather-app
+server:
+  port: '8080'
+feign:
+  client:
+    url: https://api.openweathermap.org/data/2.5/forecast
+jwt:
+  secret: $weather_api$

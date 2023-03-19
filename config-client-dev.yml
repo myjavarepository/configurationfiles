@@ -4,7 +4,7 @@ management:
       exposure:
         include: '*'
 file:
-  message: Hello, Message from config client.yml file(test).
+  message: Hello, Message from config client.yml file(OLD).
 
 
 
